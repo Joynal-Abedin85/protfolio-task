@@ -5,7 +5,7 @@ import { FaLaptopCode, FaPencilRuler, FaPaintBrush, FaArrowRight } from 'react-i
 const Experience = () => {
     return (
 
-    <div className='bg-gray-900'>
+    <div className='bg-gray-950'>
         <div className='text-white max-w-[1200px]  mx-auto pb-14'>
         <div className='flex justify-between'>
             <img src="https://i.postimg.cc/kgnHvc46/Gemini-Generated-Image-jgfffhjgfffhjgff-removebg-preview.png" 
