@@ -11,9 +11,9 @@ const Banner = () => {
     />
       </div>
       <div className="  w-1/2 ml-10 h-[500px] flex flex-col justify-center">
-        <h1> Hello! This is </h1>
-        <h2 className="font-bold text-4xl">
-          joynal <span className="text-rose-700 ">abedin</span>
+        <h1> Hello! </h1>
+        <h2 className="font-bold text-4xl"> I'm
+          <span className="text-rose-700 "> joynal abedin</span>
         </h2>
         <h2 className="mt-4">I am a web developer</h2>
         <div className=" h-16 w-[300px] mt-4 rounded-full shadow-inner shadow-rose-700 flex justify-end items-center">
