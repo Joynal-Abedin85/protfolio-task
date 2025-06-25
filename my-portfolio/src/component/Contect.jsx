@@ -49,9 +49,7 @@ const Contect = () => {
           </div>
           <h3 className="font-bold text-lg">PHONE</h3>
           <p className="text-gray-200 text-sm">
-            +880 1234 567890
-            <br />
-            +880 9876 543210
+            +880 1643676513
           </p>
         </div>
 
