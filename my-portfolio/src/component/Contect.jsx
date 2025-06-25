@@ -1,0 +1,69 @@
+import React from 'react';
+import { FiSend, FiPhone, FiMapPin } from 'react-icons/fi';
+
+
+const Contect = () => {
+  return (
+    <section className="text-white relative overflow-hidden max-w-[1200px] mx-auto py-16 px-4 text-center">
+      <h2 className="text-3xl font-bold mb-2">Contact Me</h2>
+      <p className="text-gray-400 mb-8">
+        Have a project in mind or just want to connect? Feel free to reach out!
+      </p>
+
+      <form className="max-w-xl mx-auto space-y-4">
+        <div className="flex flex-col md:flex-row gap-4">
+          <input
+            type="email"
+            placeholder="Enter a valid email address"
+            className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none"
+          />
+          <input
+            type="text"
+            placeholder="Enter your name"
+            className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none"
+          />
+        </div>
+        <button
+          type="submit"
+          className="w-full md:w-auto px-12 py-3 bg-rose-500 hover:bg-rose-700 text-white font-semibold rounded-full transition duration-300"
+        >
+          SUBMIT
+        </button>
+      </form>
+
+      <div className="mt-16 bg-gray-700 py-10 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between gap-8">
+      
+        <div className="flex flex-col items-center text-center space-y-2 max-w-sm">
+          <div className="bg-rose-500 p-4 rounded-full text-white text-2xl">
+            <FiSend />
+          </div>
+          <h3 className="font-bold text-lg">SERVICES</h3>
+          <p className="text-gray-200 text-sm">UI/UX Design, Web Design, Responsive Interfaces</p>
+        </div>
+
+        <div className="flex flex-col items-center text-center space-y-2 max-w-sm">
+          <div className="bg-rose-500 p-4 rounded-full text-white text-2xl">
+            <FiPhone />
+          </div>
+          <h3 className="font-bold text-lg">PHONE</h3>
+          <p className="text-gray-200 text-sm">+880 1234 567890<br />+880 9876 543210</p>
+        </div>
+
+        <div className="flex flex-col items-center text-center space-y-2 max-w-sm">
+          <div className="bg-rose-500 p-4 rounded-full text-white text-2xl">
+            <FiMapPin />
+          </div>
+          <h3 className="font-bold text-lg">LOCATION</h3>
+          <p className="text-gray-200 text-sm">
+            Dhaka, Bangladesh<br />Available for remote work worldwide.
+          </p>
+        </div>
+      </div>
+
+<div className="absolute  -top-60 left-1/2 transform -translate-x-1/2 w-[1200px] h-80 bg-rose-500 rounded-full blur-3xl opacity-40"></div>
+    </section>
+  );
+};
+
+
+export default Contect;
