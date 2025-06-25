@@ -38,9 +38,11 @@ const AboutMe = () =>  {
             I specialize in crafting beautiful and user-friendly interfaces. My designs are focused on usability,
             clean visuals, and strong branding principles that bring your product to life.
           </p>
+          <a href='https://drive.google.com/file/d/18ZfN3YcJEAUD0sYrSD6rJLwPUx3QYodK/view?usp=sharing' target='_blank'>
           <button className="bg-rose-600 hover:bg-rose-700 transition-all px-6 py-2 rounded-md text-white font-semibold shadow-md">
             Download CV
           </button>
+          </a>
         </div>
       </div>
     </div>

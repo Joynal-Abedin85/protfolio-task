@@ -36,7 +36,7 @@ const Project = () => {
             <img
               src="https://reallygooddesigns.com/wp-content/uploads/2024/11/creative-website-designs.jpg"
               alt="Creative Design"
-              className="w-full rounded-lg shadow-lg"
+              className="md:w-full w-[260px]  rounded-lg shadow-lg"
             />
           </div>
         </motion.div>
