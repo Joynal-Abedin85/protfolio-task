@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () =>  {
   return (
-    <div className="w-full bg-gradient-to-b from-gray-900 via-black to-black text-white py-20 px-6">
+        <div  className="w-full bg-gradient-to-b from-gray-900 via-black to-black text-white py-20 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16">
         
        

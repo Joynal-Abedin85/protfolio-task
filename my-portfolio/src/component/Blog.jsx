@@ -29,7 +29,7 @@ const Blog = () =>  {
             />
             <div className="p-4 w-[60%] flex flex-col justify-between">
               <div>
-                <h3 className="text-xl font-semibold">Blog Post One</h3>
+                <h3 className="text-xl font-semibold">Blog Post title</h3>
                 <p className="text-sm text-gray-300 mt-2">        Understand how color influences user emotions, behaviors, and decisions. This blog covers psychological theories behind color choices and how they can be effectively applied to improve usability and engagement.
 
                 </p>

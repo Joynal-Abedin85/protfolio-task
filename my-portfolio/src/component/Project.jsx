@@ -16,7 +16,7 @@ const fadeUpVariant = {
 
 const Project = () => {
   return (
-    <div className="w-full py-16 bg-gradient-to-b from-gray-950 via-rose-950/70 to-black text-white">
+<div  className="w-full py-16 bg-gradient-to-b from-gray-950 via-rose-950/70 to-black text-white">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
 
         <motion.div
@@ -87,6 +87,7 @@ const Project = () => {
 
       </div>
     </div>
+    
   );
 };
 

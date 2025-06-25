@@ -37,6 +37,16 @@ const Banner = () => {
           alt=""
         />
       </div>
+
+      <div className="absolute right-2/6 top-2/5 border-rose-500 border-l-4 py-2 px-3 font-bold  bg-rose-700/20 backdrop-blur-2xl    rounded-2xl ">
+        <h2 className="text-3xl">300+</h2>
+        <p>happy clients</p>
+      </div>
+      
+      <div className="absolute right-1/6 w-32 top-4/5 border-rose-500 border-l-4 py-2 px-3 font-bold  bg-rose-700/20 backdrop-blur-2xl    rounded-2xl ">
+        <h2 className="text-3xl">1k+</h2>
+        <p>projects</p>
+      </div>
     </div>
   );
 };

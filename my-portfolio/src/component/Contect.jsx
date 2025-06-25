@@ -4,7 +4,7 @@ import { FiSend, FiPhone, FiMapPin } from 'react-icons/fi';
 
 const Contect = () => {
   return (
-    <section className="text-white relative overflow-hidden max-w-[1200px] mx-auto py-16 px-4 text-center">
+<section  className="text-white relative overflow-hidden max-w-[1200px] mx-auto py-16 px-4 text-center">
       <h2 className="text-3xl font-bold mb-2">Contact Me</h2>
       <p className="text-gray-400 mb-8">
         Have a project in mind or just want to connect? Feel free to reach out!
@@ -62,6 +62,7 @@ const Contect = () => {
 
 <div className="absolute  -top-60 left-1/2 transform -translate-x-1/2 w-[1200px] h-80 bg-rose-500 rounded-full blur-3xl opacity-40"></div>
     </section>
+    
   );
 };
 
